@@ -1,8 +1,21 @@
 .thamnell {
+    display: block;
     width: 300px;
 }
 
 .search-box {
     font-size: 20px;
-    margin-left: 12px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.video-title {
+    font-size: 20px;
+}
+
+.video-preview {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
 }
