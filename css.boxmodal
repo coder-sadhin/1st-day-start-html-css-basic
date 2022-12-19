@@ -1,0 +1,6 @@
+css box modal is a modal where every element margin padding spacing control. 
+
+every element have won margin space , border space, padding space also,
+and some element have won default margin/padding
+
+if show box-modal go to the computed and show the modal
