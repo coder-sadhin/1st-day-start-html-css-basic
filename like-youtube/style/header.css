@@ -3,11 +3,25 @@
     margin-bottom: 5px;
 }
 
+body {
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
 .header {
     height: 55px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #aba7a7;
+    z-index: 100;
 }
 
 .left-section {
@@ -96,4 +110,20 @@
 .user-img {
     width: 32px;
     border-radius: 16px;
+}
+
+.notification-container {
+    position: relative;
+}
+
+.notifications-count {
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    font-family: Roboto, Arial;
+    padding: 2px 5px;
+    border-radius: 10px;
+    font-size: 10px;
 }
